@@ -1,0 +1,98 @@
+
+.container {
+    padding: 0 30px;
+    outline: 1px solid red;
+}
+
+.hero { 
+
+    width: 500px;
+    outline: 1px solid red;
+}
+
+.sounds-like-we {
+    outline: 1px solid red;
+    width: 300px;
+}
+
+   .button-empty {
+
+    color: #000000;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 12px 34px;
+    border: 2px solid #F8D24E;
+    border-radius: 8px;
+    &:hover {
+        border-color: #0A8817;
+    }
+    &:focus {
+        color: #FCFCFC;
+        border-color: #0A8817;
+    }
+    &:disabled {
+        color: #000000;
+        border-color: #ABABAB;
+
+    }
+
+   }
+   
+ .button-colored {
+    color: #000000;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 1.29px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding: 12px 34px;
+        background-color:  #F8D24E;
+        border-radius: 8px;
+        border: none;
+    
+        &:hover {
+            background-color: #0A8817;
+        }
+    
+        &:focus {
+            color: #FCFCFC;
+            background-color: #0A8817;
+        }
+    
+        &:disabled {
+            color: #000000;
+            background-color: #ABABAB;
+    
+        }
+    
+
+ }
+
+
+
+.button { 
+    padding: 10px;
+    border-radius: 10px;
+    background-color: hsl(196, 97%, 50%);
+}
+
+.google { 
+    outline: 1px solid red;
+}
+
+.ikon-google {
+    display: block;
+    z-index: 3;
+    background-color: aqua;
+    fill: #000000;
+    outline: 1px solid red;
+}
+.stars {
+    fill: currentColor;
+}
